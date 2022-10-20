@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Comic Neue', cursive;;
+     
+
+   
+}
+#head{
+    color: pink;
+}
+    
+
+#section1{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #aeb7ff;
+    background-image: url('images/Imgland7.jpeg');
+    background-size: 1450px 800px ;
+    background-repeat: no-repeat;
+
+
+   
+
+ }
+
+ #b1{
+    border: black;
+    margin-top: 2px;
+ }
+
+
+#section2{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    background-color: #CED89E;
+
+}
+#b1{
+    background-color: #B09B71;
+    border-radius: 17px;
+    color: black;
+    padding: 10px;
+    width: 170px;
+    cursor: pointer;
+}
+
+
+#logo{
+    width: 15%;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.testButton1
+{
+font-size:100%;
+text-align: bottom ;
+align-self: auto;
+height: 70%;
+width: 70%;
+}
+
+.testButton1 img
+{
+height:100%;
+vertical-align: left;
+}
+.testButton2
+{
+font-size:100%;
+text-align: center;
+height: 50%;
+width: 50%;
+
+}
+
+.testButton2 img
+{
+height:100%;
+vertical-align: right;
+
+}
+
+
+
+@media (max-width:699px) {
+    #logo{
+        width: 50%;
+    }
+    #img1,#img2,#img3{
+        width: 100%;
+    }
+}
